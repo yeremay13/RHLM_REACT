@@ -1,0 +1,50 @@
+/* Estilos para el componente Albums */
+
+/* Estilos base */
+.albums {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.album-container {
+  display: flex;
+  flex-wrap: wrap; /* Envolver elementos en dispositivos pequeños */
+  justify-content: center;
+  align-items: center;
+}
+
+.album {
+  margin: 0 10px;
+}
+
+.album img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: white;
+  border-style: inset;
+}
+
+.album p {
+  margin-top: 10px;
+  color: white;
+}
+
+.h2 {
+  color: white;
+}
+
+/* Media queries para estilos responsive */
+@media screen and (min-width: 768px) {
+  /* Estilos para dispositivos medianos */
+  .albums {
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Estilos para dispositivos grandes */
+  .albums {
+    padding: 50px 100px;
+  }
+}

@@ -1,0 +1,48 @@
+
+.header-container {
+  background-image: url(https://i.pinimg.com/736x/a0/a6/4b/a0a64b58374542d9089509492d657f32.jpg);
+  color: #fff; 
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(138, 130, 130);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+
+.logo {
+  width: 100px; 
+  height: 100pw;
+  object-fit: cover;
+}
+
+
+.nav {
+  display: flex;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; 
+  font-size: 16px;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-link:hover {
+  color: #ecf0f1; 
+}
+
+
+.nav-link.active {
+  color: red; 
+  font-weight: bold;
+}

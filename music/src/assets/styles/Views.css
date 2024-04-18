@@ -1,0 +1,45 @@
+
+ 
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .song-card {
+    background-color: #f9f9f9;
+    background-color: rgb(138, 130, 130);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(https://st3.depositphotos.com/11272048/37021/i/450/depositphotos_370219600-stock-photo-aged-paper-sheet-blank-old.jpg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .song-image {
+    width: 65%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+  }
+  
+  .song-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .views {
+    font-size: 14px;
+    color: #1a1919;
+  }

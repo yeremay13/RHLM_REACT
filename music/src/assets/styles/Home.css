@@ -1,0 +1,63 @@
+
+.home {
+  padding: 50px 20px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.person-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 25%;
+  margin-bottom: 20px;
+  border: white;
+  border-style: inset;
+}
+
+.person-info {
+  text-align: center;
+}
+
+.person-info h2 {
+  margin-bottom: 10px;
+  color: red;
+}
+
+.person-info p {
+  color: white;
+  line-height: 1.5;
+}
+
+
+@media screen and (min-width: 768px) {
+  /* Estilos para dispositivos medianos */
+  .home {
+    padding: 50px 50px; 
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Estilos para dispositivos grandes */
+  .home {
+    padding: 50px 100px; 
+  }
+
+  .home-content {
+    flex-direction: row; 
+    
+  }
+
+  .person-image {
+    margin-right: 20px; 
+  }
+
+  .person-info {
+    text-align: left; 
+  }
+}
