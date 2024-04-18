@@ -1,23 +1,23 @@
 <h1 align="center">RHLM</h1>
 <p align="center"><img src="https://e0.pxfuel.com/wallpapers/142/347/desktop-wallpaper-real-hasta-la-muerte-reggaeton.jpg"/></p> 
 
-## Tabla de contenidos:
+## Table of Contents:
 ---
 
-- [Descripción y contexto](#descripción-y-contexto)
-- [Autor/es](#autores)
-- [Información adicional](#información-adicional)
+- [Description and Context](#description-and-context)
+- [Author(s)](#authors)
+- [Additional Information](#additional-information)
 
-## Descripción y contexto
+## Description and Context
 ---
-Esto es un proyecto realizado con React acerca de Anuel AA y su música. El propósito es ofrecer una página web de referencia a sus éxitos o por lo menos sus hazañas hasta la fecha.
+This is a project built with React about Anuel AA and his music. The purpose is to provide a reference website for his hits or at least his achievements to date.
 
-## Autor/es
+## Author(s)
 ---
 Yeremay Araña Betancor
 
-## Información adicional
+## Additional Information
 ---
-Esta página está inspirada en los siguientes diseños de figma:
-https://www.figma.com/file/seg5QrchUcAvTuu4wVcazh/Music-Webapp-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=EJjKVkZPueL7lQW2-0
-https://www.figma.com/community/file/1102658373240576308/ui-music-website?searchSessionId=lv5ik2l6-ud7u0h36gel
+This page is inspired by the following Figma designs:
+- [Music Webapp Landing Page (Community)](https://www.figma.com/file/seg5QrchUcAvTuu4wVcazh/Music-Webapp-Landing-Page-(Community)?type=design&node-id=0-1&mode=design&t=EJjKVkZPueL7lQW2-0)
+- [UI Music Website](https://www.figma.com/community/file/1102658373240576308/ui-music-website?searchSessionId=lv5ik2l6-ud7u0h36gel)
