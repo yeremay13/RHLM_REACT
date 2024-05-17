@@ -1,0 +1,165 @@
+.foro-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.nueva-publicacion-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.nueva-publicacion-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.nueva-publicacion-form input[type="text"],
+.nueva-publicacion-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.nueva-publicacion-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.nueva-publicacion-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.publicaciones-list {
+  list-style: none;
+  padding: 0;
+}
+
+.publicacion-item {
+  background-color: #f9f9f9;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0zOUbZ1fOPFxow_BlHwReY2xAS2Z0fnsBVjICdh59A&s);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.publicacion-titulo {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.publicacion-contenido {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.publicacion-autor {
+  font-style: italic;
+  color: #888;
+}
+
+.boton-borrar {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton-borrar:hover {
+  background-color: #cc0000;
+}
+
+
+.boton-actualizar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.boton-actualizar:hover {
+  background-color: #218838;
+}
+
+/* Estilos previos */
+
+.edicion-publicacion-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.edicion-publicacion-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edicion-publicacion-form input[type="text"],
+.edicion-publicacion-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.edicion-publicacion-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edicion-publicacion-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos previos */
+
+@media only screen and (max-width: 600px) {
+  .foro-container {
+    width: 90%;
+  }
+}
+
+/* Estilos específicos para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .foro-container {
+    width: 70%;
+  }
+}
+
+/* Estilos específicos para dispositivos de escritorio */
+@media only screen and (min-width: 1025px) {
+  .foro-container {
+    width: 90%;
+  }
+}

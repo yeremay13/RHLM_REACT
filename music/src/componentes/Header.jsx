@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../assets/styles/Header.css';
 
 function Header() {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <header className="header">
       <div className="logo-container">
@@ -10,7 +16,10 @@ function Header() {
           <img src="logo3.webp" alt="Logo de la aplicación" className="logo" />
         </NavLink>
       </div>
-      <nav className="nav">
+      <button className="nav-toggle" onClick={toggleMenu}>
+        {showMenu ? 'Cerrar' : 'Menú'}
+      </button>
+      <nav className={`nav ${showMenu ? 'active' : ''}`}>
         <ul className="nav-list">
           <li className="nav-item">
             <NavLink exact to="/" className="nav-link" activeClassName="active">Anuel AA</NavLink>
@@ -20,6 +29,9 @@ function Header() {
           </li>
           <li className="nav-item">
             <NavLink to="/Albums" className="nav-link" activeClassName="active">Albums</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/Foro" className="nav-link" activeClassName="active">Foro</NavLink>
           </li>
         </ul>
       </nav>
